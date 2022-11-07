@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>professors</h1>
+
+<div id="professors">
+  <% @professors.each do |professor| %>
+    <%= render professor %>
+    <p>
+      <%= link_to "Show this professor", professor %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New professor", new_professor_path %>
+< img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnpDdVI0i2v2LXvQemFSLMEAFVlTXjJtxEf98BmKp1CQ&s" class="img-fluid" alt="..">
+<<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnpDdVI0i2v2LXvQemFSLMEAFVlTXjJtxEf98BmKp1CQ&s" alt="ttt">
